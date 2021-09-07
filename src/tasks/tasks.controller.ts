@@ -8,7 +8,6 @@ import {
   Patch,
   Query,
 } from '@nestjs/common';
-import { filter } from 'rxjs';
 import { CreateTaskDto } from './dto/create-task.dto';
 import { GetTaskFilterDto } from './dto/get-tasks-filter';
 import { UpdateTaskStatusDto } from './dto/update-task-status.dto';
