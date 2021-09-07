@@ -8,11 +8,10 @@ import {
   Patch,
   Query,
 } from '@nestjs/common';
-import { filter } from 'rxjs';
 import { CreateTaskDto } from './dto/create-task.dto';
 import { GetTaskFilterDto } from './dto/get-tasks-filter';
 import { UpdateTaskStatusDto } from './dto/update-task-status.dto';
-import { Task } from './task.entity';
+import { Task } from '@prisma/client';
 import { TasksService } from './tasks.service';
 
 @Controller('tasks')
